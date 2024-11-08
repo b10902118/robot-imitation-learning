@@ -32,24 +32,24 @@ bash scripts/train_policy.sh {diff_pusht, reg_pusht, diff_calvin}
 	</tr>
 	<tr>
 		<td>
-			<video controls width="250">
-				<source src="./demo/diff_pusht_eval_output/media/seed100000.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/diff_pusht_eval_output/media/seed100000.mp4">
+			<img width="200" src="./demo/diff_pusht_eval_output/media/seed100000.gif">
+			</a>
 		</td>
 		<td>
-			<video controls width="250">
-				<source src="./demo/diff_pusht_eval_output/media/seed100001.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/diff_pusht_eval_output/media/seed100001.mp4">
+			<img width="200" src="./demo/diff_pusht_eval_output/media/seed100001.gif">
+			</a>
 		</td>
 		<td>
-			<video controls width="250">
-				<source src="./demo/diff_pusht_eval_output/media/seed100002.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/diff_pusht_eval_output/media/seed100002.mp4">
+			<img width="200" src="./demo/diff_pusht_eval_output/media/seed100002.gif">
+			</a>
 		</td>
 		<td>
-			<video controls width="250">
-				<source src="./demo/diff_pusht_eval_output/media/seed100003.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/diff_pusht_eval_output/media/seed100003.mp4">
+			<img width="200" src="./demo/diff_pusht_eval_output/media/seed100003.gif">
+			</a>
 		</td>
 	</tr>
 </table>
@@ -66,24 +66,21 @@ bash scripts/train_policy.sh {diff_pusht, reg_pusht, diff_calvin}
 	</tr>
 	<tr>
 		<td>
-			<video controls width="250">
-				<source src="./demo/reg_pusht_eval_output/media/seed100000.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/reg_pusht_eval_output/media/seed100000.mp4">
+			<img width="200" src="./demo/reg_pusht_eval_output/media/seed100000.gif">
+			</a>
 		</td>
 		<td>
-			<video controls width="250">
-				<source src="./demo/reg_pusht_eval_output/media/seed100001.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/reg_pusht_eval_output/media/seed100001.mp4">
+			<img width="200" src="./demo/reg_pusht_eval_output/media/seed100001.gif"></a>
 		</td>
 		<td>
-			<video controls width="250">
-				<source src="./demo/reg_pusht_eval_output/media/seed100002.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/reg_pusht_eval_output/media/seed100002.mp4">
+			<img width="200" src="./demo/reg_pusht_eval_output/media/seed100002.gif"></a>
 		</td>
 		<td>
-			<video controls width="250">
-				<source src="./demo/reg_pusht_eval_output/media/seed100003.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/reg_pusht_eval_output/media/seed100003.mp4">
+			<img width="200" src="./demo/reg_pusht_eval_output/media/seed100003.gif"></a>
 		</td>
 	</tr>
 </table>
@@ -97,14 +94,12 @@ bash scripts/train_policy.sh {diff_pusht, reg_pusht, diff_calvin}
 	</tr>
 	<tr>
 		<td>
-			<video controls width="500">
-				<source src="./demo/diff_pusht_eval_output_8/media/seed100001.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/diff_pusht_eval_output_8/media/seed100001.mp4">
+			<img width="400" src="./demo/diff_pusht_eval_output_8/media/seed100001.gif"></a>
 		</td>
 		<td>
-			<video controls width="500">
-				<source src="./demo/diff_pusht_eval_output_16/media/seed100001.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/diff_pusht_eval_output_16/media/seed100001.mp4">
+			<img width="400" src="./demo/diff_pusht_eval_output_16/media/seed100001.gif"></a>
 		</td>
 	</tr>
 </table>
@@ -117,14 +112,12 @@ bash scripts/train_policy.sh {diff_pusht, reg_pusht, diff_calvin}
 	</tr>
 	<tr>
 		<td>
-			<video controls width="500">
-				<source src="./demo/reg_pusht_eval_output_8/media/seed100001.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/reg_pusht_eval_output_8/media/seed100001.mp4">
+			<img width="400" src="./demo/reg_pusht_eval_output_8/media/seed100001.gif"></a>
 		</td>
 		<td>
-			<video controls width="500">
-				<source src="./demo/reg_pusht_eval_output_16/media/seed100001.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/reg_pusht_eval_output_16/media/seed100001.mp4">
+			<img width="400" src="./demo/reg_pusht_eval_output_16/media/seed100001.gif"></a>
 		</td>
 	</tr>
 </table>
@@ -146,24 +139,20 @@ bash scripts/train_policy.sh {diff_pusht, reg_pusht, diff_calvin}
 	</tr>
 	<tr>
 		<td>
-			<video controls width="250">
-				<source src="./demo/calvin_eval_30000/calvin_seq7.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/calvin_eval_30000/calvin_seq7.mp4">
+			<img width="200" src="./demo/calvin_eval_30000/calvin_seq7.gif"></a>
 		</td>
 		<td>
-			<video controls width="250">
-				<source src="./demo/calvin_eval_30000/calvin_seq8.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/calvin_eval_30000/calvin_seq8.mp4">
+			<img width="200" src="./demo/calvin_eval_30000/calvin_seq8.gif"></a>
 		</td>
 		<td>
-			<video controls width="250">
-				<source src="./demo/calvin_eval_30000/calvin_seq30.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/calvin_eval_30000/calvin_seq30.mp4">
+			<img width="200" src="./demo/calvin_eval_30000/calvin_seq30.gif"></a>
 		</td>
 		<td>
-			<video controls width="250">
-				<source src="./demo/calvin_eval_30000/calvin_seq70.mp4" type="video/mp4">
-			</video>
+			<a href="./demo/calvin_eval_30000/calvin_seq70.mp4">
+			<img width="200" src="./demo/calvin_eval_30000/calvin_seq70.gif"></a>
 		</td>
 	</tr>
 </table>
