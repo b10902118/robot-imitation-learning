@@ -107,8 +107,7 @@ class RegressionUnetImagePolicy(BaseImagePolicy):
             self.model(inputs, global_cond=global_cond, timestep=0)
         )
         # print(f"{action_pred.shape=}")
-        # print(f"{self.n_action_steps=}")
-        action = action_pred[:, : self.n_action_steps]
+        action = action_pred[:, :1]
 
         result = {"action": action, "action_pred": action_pred}
         return result

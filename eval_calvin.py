@@ -123,7 +123,8 @@ def evaluate_policy(model, env, conf_dir, eval_log_dir=None, save_video=False,
             import cv2
             for task_ind, (subtask, video) in enumerate(zip(eval_sequence, videos)):
                 for img_ind, img in enumerate(video):
-                    cv2.putText(img.copy(),
+                    img = np.float32(img)
+                    cv2.putText(img, #.copy(),
                                 f'{task_ind}: {subtask}',
                                 (10, 180),
                                 cv2.FONT_HERSHEY_SIMPLEX, 
@@ -134,7 +135,7 @@ def evaluate_policy(model, env, conf_dir, eval_log_dir=None, save_video=False,
                     video[img_ind] = img
                 clip.extend(video)
             clip = moviepy.video.io.ImageSequenceClip.ImageSequenceClip(clip, fps=30)
-            clip.write_videofile(f"calvin_seq{seq_ind}.mp4")
+            clip.write_videofile(os.path.join(eval_log_dir,f"calvin_seq{seq_ind}.mp4"))
 
 
     return results
